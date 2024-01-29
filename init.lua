@@ -1,0 +1,7 @@
+require('basic_config')
+require('plugins')
+require('colorscheme_setup')
+require('NerdTreeConfig')
+require('mason_conf')
+require('lsp_config')
+require('autocompiler')
