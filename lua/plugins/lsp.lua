@@ -16,6 +16,7 @@ return {
                 "gofumpt",
                 "gomodifytags",
                 "impl",
+                "clang-format",
             })
         end,
     },

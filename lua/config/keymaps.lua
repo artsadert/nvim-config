@@ -24,6 +24,7 @@ keymap.set("n", "<C-m>", "<C-i>", opts)
 keymap.set("n", "te", ":tabedit", opts)
 keymap.set("n", "<tab>", ":BufferLineCycleNext<CR>", opts)
 keymap.set("n", "<s-tab>", ":BufferLineCyclePrev<CR>", opts)
+keymap.set("n", "<C-w>", ":bd<Return>", opts)
 
 --split windows
 keymap.set("n", "ss", ":split<Return>", opts)
