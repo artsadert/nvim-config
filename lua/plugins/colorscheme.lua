@@ -1,12 +1,14 @@
 return {
-    -- "craftzdog/solarized-osaka.nvim",
+    --    "scottmckendry/cyberdream.nvim",
+    --  "craftzdog/solarized-osaka.nvim",
     {
-        "scottmckendry/cyberdream.nvim",
+        "ficcdaf/ashen.nvim",
         lazy = true,
         priority = 1000,
         opts = function()
             return {
                 transparent = true,
+                terminal_colors = true,
             }
         end,
     },
@@ -14,7 +16,7 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "cyberdream",
+            colorscheme = "ashen",
         },
     },
 }
