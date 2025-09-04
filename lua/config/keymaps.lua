@@ -1,4 +1,4 @@
--- Keymaps are automatically loaded on the VeryLazy event
+-- Keymaps are automatically load on the VeryLazy event
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 --
@@ -20,11 +20,11 @@ keymap.set("i", "jk", "<Esc>")
 --jump list
 keymap.set("n", "<C-m>", "<C-i>", opts)
 
---work with tabs
+--work with buffers
 keymap.set("n", "te", ":tabedit", opts)
 keymap.set("n", "<tab>", ":BufferLineCycleNext<CR>", opts)
 keymap.set("n", "<s-tab>", ":BufferLineCyclePrev<CR>", opts)
-keymap.set("n", "<C-w>", ":bd<Return>", opts)
+-- keymap.set("n", "<C-w>", "<Space>bd")
 
 --split windows
 keymap.set("n", "ss", ":split<Return>", opts)
