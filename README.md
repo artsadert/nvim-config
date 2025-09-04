@@ -1,4 +1,6 @@
-# 💤 LazyVim
+### LazyVim config files I use
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## Installation
+
+To install download neovim, then install this repository into ~/.config/nvim/
+Then start nvim and download any mason packages(lsp, linters, formatters) to your personal use
